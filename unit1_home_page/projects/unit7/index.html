@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 7 Movie Gallery</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="header-left">
+            <h1>Star Wars Movie Posters</h1>
+        </div>
+        <div class="view-controls">
+            <button class="view-button" id="listView" aria-label="List view">
+                <img src="https://dgmuvu.com/dgmcourses/dwdd1720/unit08/list.svg" alt="List view icon">
+            </button>
+            <button class="view-button" id="gridView" aria-label="Grid view">
+                <img src="https://dgmuvu.com/dgmcourses/dwdd1720/unit08/grid.svg" alt="Grid view icon">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="movie-gallery list-view" id="movieGallery" aria-live="polite">
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>Easton Fraser</p>
+        <p>Unit 7 Project</p>
+        <p>2026</p>
+    </footer>
+
+    <script type="module" src="js/scripts.js"></script>
+</body>
+
+</html>

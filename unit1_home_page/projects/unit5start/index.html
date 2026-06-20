@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+<Header>left or right handded quiz</Header>
+<body>
+    <section id="newProfile">
+        <p>Please complet your left or right handded quiz.</p>
+        <form>
+            <label>First Name:<input type="text" name="first" required> </label>
+            <label>Last Name: <input type="text" name="last" required> </label>
+            <label>left or right hand <select id="physical">
+                    <option value="https://openmoji.org/data/color/svg/27A1.svg">Right handed</option>
+                    <option value="https://openmoji.org/data/color/svg/2B05.svg">Left handed</option>
+                    <option value="https://openmoji.org/data/color/svg/2194.svg">Ambidextrous</option>
+                </select></label>
+            <input type="submit" value="saveprofile" id="saveprofile">
+
+        </form>
+    </section>
+
+
+    <section id="myProfile">
+        <div>
+            <img src="" id="emoji">
+            <p><span id="first"></span> <span id="last"></span> is <span id="emotion"></span></p>
+            <button id="delProfile">Deleat Profile</button>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

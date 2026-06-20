@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget vacation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="pic/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="pic/favicon.ico">
+    <link rel="shortcut icon" href="pic/favicon.ico">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Budget Vacation</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="deals.html">Deals</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Request More Information</h1>
+            <p>Fill out this short form and we’ll follow up with tailored package options.</p>
+        </section>
+
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required placeholder="Jane Traveler">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+                <label for="phone">Phone (optional)</label>
+                <input type="text" id="phone" name="phone" placeholder="(555) 555-5555">
+            </fieldset>
+
+            <fieldset>
+                <legend>Trip Preferences</legend>
+                <label for="trip-type">Type of trip</label>
+                <select id="trip-type" name="trip-type">
+                    <option>Leisure</option>
+                    <option>Adventure</option>
+                    <option>Family</option>
+                    <option>Romantic</option>
+                </select>
+
+                <label>Budget level</label>
+                <div class="form-row">
+                    <div>
+                        <input type="radio" id="econ" name="budget" value="economy">
+                        <label for="econ">Economy</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="std" name="budget" value="standard" checked>
+                        <label for="std">Standard</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="prem" name="budget" value="premium">
+                        <label for="prem">Premium</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="message">Tell us about your ideal trip</label>
+                <textarea id="message" name="message" placeholder="I want a 7-day beach escape with a short city stop..."></textarea>
+            </fieldset>
+
+            <div style="text-align:center; margin:18px 0;">
+                <button class="submit-btn" type="submit">Send Request</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Budget Vacation — Travel More, Spend Less</p>
+    </footer>
+</body>
+
+</html>

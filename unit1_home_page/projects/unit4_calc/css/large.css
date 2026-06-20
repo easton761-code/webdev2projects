@@ -1,0 +1,15 @@
+@media only screen and (min-width: 60rem) {
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 4%;
+}
+
+section div {
+    flex-basis: auto;
+}
+
+
+} /* end media query*/

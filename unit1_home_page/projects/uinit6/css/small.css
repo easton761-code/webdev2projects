@@ -1,0 +1,66 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cards figure {
+    margin: 11px;
+    padding: 0;
+    flex-basis: 96%;
+    background-color: lightcyan;
+    text-align: center;
+    margin-top: 15px;
+    border: solid black 3px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 10px 22px grey;
+}
+
+#cards img {
+    width: 100%;
+}
+
+main {
+    max-width: 79rem;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(66, 66, 112);
+    color: wheat;
+    text-align: center;
+    font-size: 60px;
+}
+
+#cards div{
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(66, 66, 112);
+    color: wheat;
+    font-size: 19px;
+    margin-top: 10px;
+    border: solid black 3px;
+    border-radius: 15px;
+}

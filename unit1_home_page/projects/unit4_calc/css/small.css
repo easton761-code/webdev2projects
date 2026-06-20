@@ -1,0 +1,90 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-main: "Inter", sans-serif;
+    --primarycolor: #e57427;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 2%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--primarycolor);
+}
+
+div.data {
+    margin: 1rem auto;
+    padding: 1rem 4%;
+    max-width: 1000px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+
+div.data label {
+    display: block;
+    margin: .5rem 0;
+}
+
+div.data input {
+    width: 100px;
+    padding: .4rem;
+    font-size: 1rem;
+}
+
+div.data button {
+    width: 100%;
+    padding: 3rem 0;
+    background: Linear-gradient(rgb(138, 210, 219), #3636bc);
+    color: black;
+    text-transform: uppercase;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px #777;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: black solid 3px;
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    margin: 1rem 4%;
+    background-color: #f7f7f7;
+    border-radius: 0 0 10px 10px;
+    flex-basis: 96%;
+}
+
+section div h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0;
+    padding: .5rem 0;
+    background-color: #666;
+    color: white;
+}
+
+section div ul {
+    list-style-type: circle;
+}
+
+footer {
+    text-align: center;
+}

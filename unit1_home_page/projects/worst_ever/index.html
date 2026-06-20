@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ugly Meme Popups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>WELCOME TO THE BEST MEME SITE</h1>
+
+  <div class="popup-control">
+    <label for="popup-toggle-input">Guess the password</label>
+    <input id="popup-toggle-input" type="text" placeholder="Type meme here" autocomplete="off">
+    <span id="popup-status">Popups are active.</span>
+  </div>
+
+  <marquee behavior="alternate" scrollamount="30">
+    Best memes ever
+  </marquee>
+
+  <section class="front-memes">
+    <div class="meme-card">
+      <h2>Fresh Meme 1</h2>
+      <img src="img/freshmeme.jpg" alt="Fresh meme 1">
+    </div>
+    <div class="meme-card">
+      <h2>Fresh Meme 2</h2>
+      <img src="img/freshmeme1.jpg" alt="Fresh meme 2">
+    </div>
+    <div class="meme-card">
+      <h2>Fresh Meme 3</h2>
+      <img src="img/freshmeme2.jpg" alt="Fresh meme 3">
+    </div>
+    <div class="meme-card">
+      <h2>Fresh Meme 4</h2>
+      <img src="img/freshmeme3.jpg" alt="Fresh meme 4">
+    </div>
+  </section>
+
+  <!-- Load scripts AFTER the body exists -->
+  <script src="js/scripts.js"></script>
+</body>
+</html> 

@@ -1,0 +1,79 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hideme {
+    display: none;
+}
+
+.showme {
+    display: block;
+}
+
+/* New Profile */
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    color: darkblue;
+    background-color: rgb(246, 214, 165);
+}
+
+body {
+    background-color: rgb(246, 214, 165);
+}
+
+
+#newProfile {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-size: 1.1rem;
+}
+
+
+#newProfile label {
+    display: block;
+}
+
+#newProfile input,
+#newProfile select {
+    background-color: beige;
+}
+
+
+/* Current Profiel */
+
+
+#myProfile p {
+    background-color: rgb(251, 224, 184);
+}
+
+#myProfile button {
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+
+#myProfile div {
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
